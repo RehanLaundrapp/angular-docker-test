@@ -28,4 +28,8 @@ describe('AppComponent', () => {
     const compiled = fixture.debugElement.nativeElement;
     expect(compiled.querySelector('.content span').textContent).toContain('angular-app app is running!');
   });
+  it('rehan test', () => {
+    const myNumber = true;
+    expect(myNumber).toBeTruthy();
+  });
 });
