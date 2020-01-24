@@ -1,6 +1,6 @@
 #STAGE 1
 FROM node:latest as node
-RUN git clone git@github.com:RehanLaundrapp/angular-docker-test.git /app
+RUN git clone git@github.com:RehanLaundrapp/angular-docker-test.git
 RUN git checkout origin/second_docker_file
 WORKDIR /app
 RUN npm install
