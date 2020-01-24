@@ -9,4 +9,4 @@ RUN npm run build --prod
 
 #STAGE 2
 FROM nginx:alpine
-COPY --from=node /app/dist/angular-app /usr/share/nginx/html
+COPY --from=node /angular-docker-test/dist/angular-app /usr/share/nginx/html
