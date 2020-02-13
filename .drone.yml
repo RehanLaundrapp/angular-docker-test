@@ -9,9 +9,9 @@ platform:
 
 steps:
 - name: greeting
-  image: hello-world
+  image: node
   commands:
-  - echo hello world
+  - npm install
 
 trigger:
   branch:
