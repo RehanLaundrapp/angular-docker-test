@@ -10,10 +10,7 @@ platform:
 steps:
 - name: greeting
   image: plugins/docker
-  settings:
-    repo: angular-docker-test
 
 trigger:
   branch:
   - second_docker_file
-
