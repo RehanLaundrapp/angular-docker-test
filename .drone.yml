@@ -11,7 +11,7 @@ steps:
 - name: greeting
   image: docker:latest
   commands:
-    - docker build -t angular-demo:latest .
+    - sudo docker build -t angular-demo:latest .
 
 trigger:
   branch:
