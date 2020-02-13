@@ -11,7 +11,7 @@ steps:
 - name: greeting
   image: plugins/docker
   settings:
-    - repo: RehanLaundrapp/angular-docker-test.git
+    repo: RehanLaundrapp/angular-docker-test.git
 
 trigger:
   branch:
