@@ -11,7 +11,7 @@ steps:
 - name: greeting
   image: plugins/docker
   settings:
-    repo: angular-app
+    repo: angular-docker-test
 
 trigger:
   branch:
