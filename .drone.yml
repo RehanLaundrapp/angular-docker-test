@@ -12,6 +12,7 @@ steps:
   image: node
   commands:
   - npm install
+  - npm test
 
 trigger:
   branch:
