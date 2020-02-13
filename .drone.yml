@@ -9,10 +9,9 @@ platform:
 
 steps:
 - name: greeting
-  image: node
-  commands:
-  - npm install
-  - npm test
+  image: plugins/docker
+  settings:
+    - repo: RehanLaundrapp/angular-docker-test.git
 
 trigger:
   branch:
