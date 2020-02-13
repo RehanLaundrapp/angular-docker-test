@@ -9,7 +9,9 @@ platform:
 
 steps:
 - name: greeting
+  image: docker:latest
   commands:
+    - docker -H unix:///var/run/docker.sock build .
     - docker build -t angular-demo:latest .
 
 trigger:
