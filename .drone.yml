@@ -9,9 +9,7 @@ platform:
 
 steps:
 - name: greeting
-  image: docker:latest
   commands:
-    - sudo service docker start
     - docker build -t angular-demo:latest .
 
 trigger:
