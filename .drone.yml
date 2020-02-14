@@ -8,11 +8,12 @@ platform:
   arch: amd64
 
 steps:
-- name: greeting
+- name: greetings
   image: docker:latest
   volume:
     - /var/run/docker.sock:/var/run/docker.sock
   commands:
+    -
     - docker build -t angular-demo:latest .
 
 
