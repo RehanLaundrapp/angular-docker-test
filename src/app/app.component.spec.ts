@@ -30,7 +30,7 @@ describe('AppComponent', () => {
   });
   it('rehan test', () => {
     const myNumber = true;
-    // comment 1
+    // comment 12
     expect(myNumber).toBeTruthy();
   });
 });
